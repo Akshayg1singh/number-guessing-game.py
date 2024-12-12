@@ -35,4 +35,21 @@ License
 
 Open Source game project & Anyone can acess.
 
+---
+
+import random #libararyused
+r = random.randint(1,20)
+
+while(True):
+	inp = int(input())
+	if(inp<r):
+		print("Wrong guess, try a greater number")
+	elif(inp>r):
+		print("wrong guess, try a smaller number")
+	else:
+		print ("Congrats,we got the guessed number")
+	break;
+
+	# above to syntax given to make this small game ⬆️
+
 
